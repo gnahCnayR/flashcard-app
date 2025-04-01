@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48F7E4E2D815FD00031C3CB /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F7E4D2D815FD00031C3CB /* Flashcard.swift */; };
+		D48F7E502D8160B80031C3CB /* FlashcardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F7E4F2D8160B80031C3CB /* FlashcardsModel.swift */; };
+		D48F7E522D8160F60031C3CB /* FlashcardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F7E512D8160F60031C3CB /* FlashcardViewModel.swift */; };
 		D4A98D3D2D8156190059EF3C /* ChangRyanHW5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A98D3C2D8156190059EF3C /* ChangRyanHW5App.swift */; };
 		D4A98D3F2D8156190059EF3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A98D3E2D8156190059EF3C /* ContentView.swift */; };
 		D4A98D412D81561B0059EF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A98D402D81561B0059EF3C /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D48F7E4D2D815FD00031C3CB /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		D48F7E4F2D8160B80031C3CB /* FlashcardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsModel.swift; sourceTree = "<group>"; };
+		D48F7E512D8160F60031C3CB /* FlashcardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewModel.swift; sourceTree = "<group>"; };
 		D4A98D392D8156190059EF3C /* ChangRyanHW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangRyanHW5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A98D3C2D8156190059EF3C /* ChangRyanHW5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangRyanHW5App.swift; sourceTree = "<group>"; };
 		D4A98D3E2D8156190059EF3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +80,8 @@
 		D4A98D302D8156190059EF3C = {
 			isa = PBXGroup;
 			children = (
+				D48F7E512D8160F60031C3CB /* FlashcardViewModel.swift */,
+				D48F7E4F2D8160B80031C3CB /* FlashcardsModel.swift */,
 				D4A98D3B2D8156190059EF3C /* ChangRyanHW5 */,
 				D4A98D4C2D81561B0059EF3C /* ChangRyanHW5Tests */,
 				D4A98D562D81561B0059EF3C /* ChangRyanHW5UITests */,
@@ -98,6 +106,7 @@
 				D4A98D3E2D8156190059EF3C /* ContentView.swift */,
 				D4A98D402D81561B0059EF3C /* Assets.xcassets */,
 				D4A98D422D81561B0059EF3C /* Preview Content */,
+				D48F7E4D2D815FD00031C3CB /* Flashcard.swift */,
 			);
 			path = ChangRyanHW5;
 			sourceTree = "<group>";
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48F7E522D8160F60031C3CB /* FlashcardViewModel.swift in Sources */,
+				D48F7E502D8160B80031C3CB /* FlashcardsModel.swift in Sources */,
+				D48F7E4E2D815FD00031C3CB /* Flashcard.swift in Sources */,
 				D4A98D3F2D8156190059EF3C /* ContentView.swift in Sources */,
 				D4A98D3D2D8156190059EF3C /* ChangRyanHW5App.swift in Sources */,
 			);
@@ -425,11 +437,11 @@
 				DEVELOPMENT_TEAM = PD64KXHGSD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +466,11 @@
 				DEVELOPMENT_TEAM = PD64KXHGSD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
